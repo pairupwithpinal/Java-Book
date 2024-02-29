@@ -1,6 +1,6 @@
 public class SchoolGrade {
 
-    public String Grade(int i) {
+    public String grade(int i) {
          if (i >= 90) {
             return "A Wonderful!";
         } else if (i >= 70) {
@@ -11,10 +11,8 @@ public class SchoolGrade {
             return "D ok";
         } else if (i >= 0) {
             return "Try Again";
-
         }
         else return
             "Invalid";
-
     }
 }
